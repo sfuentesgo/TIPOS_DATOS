@@ -1,0 +1,31 @@
+{
+  "evento_id": "EVT-98207",
+  "marca_temporal": "2026-09-03T08:42:55-05:00",
+  "dispositivo": {
+    "id_lector": "LEC-BV-04",
+    "ubicacion": "Boveda-Archivo-Valor",
+    "zona_seguridad": "Nivel_4_Restringido",
+    "firmware_version": "v3.12.1"
+  },
+  "sujeto": {
+    "id_empleado": "EMP-1045",
+    "nombre_completo": "Carlos Andres Mendoza",
+    "departamento": "Tesoreria",
+    "perfil_acceso": "Administrativo_Diurno"
+  },
+  "intento_autenticacion": {
+    "metodo": "Clave_PIN",
+    "resultado": "DENEGADO",
+    "codigo_motivo": "ERR_HORARIO_NO_HABILITADO",
+    "politica_infringida": "POL-SEG-044_Restriccion_Horaria"
+  },
+  "telemetria_dispositivo": {
+    "intentos_fallidos_consecutivos": 1,
+    "temperatura_terminal_c": 28.4,
+    "estado_sensor_tamper": "NORMAL"
+  },
+  "alertas_activadas": [
+    "NOTIFICACION_CENTRO_MONITOREO",
+    "REGISTRO_AUDITORIA_GERENCIAL"
+  ]
+}

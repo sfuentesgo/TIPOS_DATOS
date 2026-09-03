@@ -1,0 +1,9 @@
+id_evento,fecha_hora,id_empleado,nombre_empleado,departamento,puerta_acceso,tipo_verificacion,resultado_acceso,observaciones
+EVT-98201,2026-09-03 07:45:12,EMP-1045,Carlos Andres Mendoza,Tesoreria,Torniquete-Principal,Biometria_Dactilar,PERMITIDO,Ingreso habitual
+EVT-98202,2026-09-03 07:48:30,EMP-2099,Laura Sofia Torres,Operaciones,Torniquete-Principal,Tarjeta_RFID,PERMITIDO,Ingreso habitual
+EVT-98203,2026-09-03 08:02:15,EMP-0412,Jorge Eduardo Rivas,Sistemas,Puerta-Centro-Computo,Doble_Factor,PERMITIDO,Mantenimiento programado
+EVT-98204,2026-09-03 08:15:40,EMP-3310,Mariana Gomez Prada,Logistica,Porton-Bodega-Norte,Tarjeta_RFID,DENEGADO,Tarjeta vencida
+EVT-98205,2026-09-03 08:16:02,EMP-3310,Mariana Gomez Prada,Logistica,Porton-Bodega-Norte,Tarjeta_RFID,DENEGADO,Reintento inmediato no autorizado
+EVT-98206,2026-09-03 08:30:11,VIS-0089,Alejandro Munoz Pena,Contratista,Recepcion-Piso-1,Documento_Cedula,PERMITIDO,Visita autorizada por Compras
+EVT-98207,2026-09-03 08:42:55,EMP-1045,Carlos Andres Mendoza,Tesoreria,Boveda-Archivo-Valor,Clave_PIN,DENEGADO,Horario no habilitado
+EVT-98208,2026-09-03 09:05:18,EMP-5501,Diana Marcela Castro,Talento_Humano,Torniquete-Principal,Biometria_Dactilar,PERMITIDO,Ingreso habitual

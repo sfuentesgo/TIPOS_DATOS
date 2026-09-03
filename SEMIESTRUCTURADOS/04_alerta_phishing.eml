@@ -1,0 +1,32 @@
+Delivered-To: seguridad.operaciones@corporativo.com
+Received: by 10.140.89.12 with SMTP id k12csp458129qwe;
+    Thu, 3 Sep 2026 08:35:22 -0500 (COT)
+X-Received: by 2002:a05:6512:441:: with SMTP id z1mr321456qab;
+    Thu, 3 Sep 2026 08:35:21 -0500 (COT)
+Authentication-Results: mx.corporativo.com;
+    spf=fail (sender IP is 198.51.100.42) smtp.mailfrom=alerta-boveda@seguridad-alertas-corp.net;
+    dkim=fail header.d=seguridad-alertas-corp.net;
+    dmarc=fail (p=REJECT dis=QUARANTINE)
+From: "Central de Notificaciones Bóveda" <alerta-boveda@seguridad-alertas-corp.net>
+Reply-To: soporte-emergencias@servidor-externo.ru
+To: carlos.mendoza@corporativo.com, seguridad.operaciones@corporativo.com
+Subject: [URGENTE] Actualización requerida: Desbloqueo de PIN y acceso a bóveda patrimonial
+Date: Thu, 3 Sep 2026 08:35:18 -0500
+Message-ID: <20260903083518.98124.qmail@seguridad-alertas-corp.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Priority: 1 (Highest)
+X-Originating-IP: [198.51.100.42]
+
+Estimado funcionario Carlos Andrés Mendoza,
+
+Se ha detectado una inconsistencia en la calibración biométrica y PIN asignado a su perfil de custodio (EMP-1045) para la Bóveda de Archivo y Valor.
+
+Para evitar el bloqueo de su credencial durante el turno de la mañana, debe validar sus credenciales ingresando inmediatamente al portal de contingencia perimetral:
+
+http://portal-acceso-boveda-validacion.org/login?ref=EMP-1045
+
+Atentamente,
+Dirección de Infraestructura y Control Patrimonial
+Sede Central

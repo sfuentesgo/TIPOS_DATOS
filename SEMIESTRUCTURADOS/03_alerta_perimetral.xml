@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventoSeguridad idAlerta="ALT-2026-0903" severidad="ALTA">
+  <marcaTiempo>2026-09-03T08:43:05-05:00</marcaTiempo>
+  <origenDispositivo>
+    <idSensor>SNS-IR-BVD-02</idSensor>
+    <tipoTecnologia>Infrarrojo_Pasivo_PIR</tipoTecnologia>
+    <zonaUbicacion>
+      <sede>Sede Central</sede>
+      <sector>Boveda - Archivo Valor</sector>
+      <coordenadaPlano>Z4-E3</coordenadaPlano>
+    </zonaUbicacion>
+    <estadoBateria unidad="porcentaje">94</estadoBateria>
+  </origenDispositivo>
+  <deteccion>
+    <tipoEvento>MOVIMIENTO_NO_AUTORIZADO</tipoEvento>
+    <duracionSegundos>14</duracionSegundos>
+    <correlacionAcceso>EVT-98207</correlacionAcceso>
+    <detallesTecnicos>
+      <umbralSensibilidad>0.85</umbralSensibilidad>
+      <lecturaRegistrada>0.92</lecturaRegistrada>
+    </detallesTecnicos>
+  </deteccion>
+  <accionesAutomaticas>
+    <accion orden="1" estado="EJECUTADO">ENCLAVAMIENTO_PUERTA_BLINDADA</accion>
+    <accion orden="2" estado="EJECUTADO">CAMARA_PTZ_PRESET_FOCO_04</accion>
+    <accion orden="3" estado="PENDIENTE">VERIFICACION_MINUTA_GUARDIA</accion>
+  </accionesAutomaticas>
+</eventoSeguridad>
