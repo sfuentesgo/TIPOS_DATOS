@@ -47,3 +47,15 @@ Información en su formato nativo que carece de estructura predefinida. Requiere
    * **Tablas interactivas** para el archivo `.csv`.
    * **Resaltado de sintaxis en colores** para los archivos `.sql`, `.json`, `.xml`, `.html` y `.log`.
    * **Visor de documentos y fotografías** para los archivos `.pdf` y `.png`.
+   
+ ---
+
+## Material de Clase (Presentaciones)
+
+Las diapositivas correspondientes a las sesiones se encuentran disponibles en formato PDF para consulta directa desde el navegador:
+
+* [E1 - Definición](PRESENTACIONES/E1_DEFINICION.pdf)
+* [E1 - Fundamentos](PRESENTACIONES/E1_FUNDAMENTOS.pdf)
+* [E2 - Business Intelligence](PRESENTACIONES/E2_BUSINESS_INTELLIGENCE.pdf)
+* [E2 - Business Analytics](PRESENTACIONES/E2_BUSINNES_ANALYTICS.pdf)
+* [E2 - Ecosistema de Datos](PRESENTACIONES/E2_ECOSISTEMA_DATOS.pdf)
